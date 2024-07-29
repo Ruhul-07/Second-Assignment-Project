@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+}
+
+/* Shared Styles */
+.header-container{
+    max-width: 1440px;
+    height: auto;
+    /* border: 2px solid red; */
+    background: linear-gradient(180.00deg, rgb(54, 49, 49), rgba(119, 119, 119, 0)100%);
+}
+.header-container-content{ 
+    width: 1060px;
+    height: 750px; 
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 46px;
+    /* margin-top: 57px; */
+    padding-top: 57px;
+}
+.logo-text{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;   
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 47px;
+    border:1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 5px;
+    list-style-type: none;
+   
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.home{
+    width: 92px;
+    height:38px;
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    text-align: center;
+}
+.hamburger{
+    display: none;
+}
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+.banner-text-area .shape{
+    font-family: miama;
+}
+.banner-text-area{
+    width: 530px;
+    height: 440px;
+}
+
+.banner-text-area h1{
+    width: 530px;
+    height: 282px;
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 100%;
+
+}
+.banner-text-area p{
+    width: 520px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-button{
+    width: 462px;
+    height: 54px;
+    margin-top: 20px;
+}
+.jc-btn{
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 16px 40px;
+    margin-right: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+.da-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-left: 14px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    stroke: Inside
+    rgb(255, 255, 255);
+}
+.banner-image-area{
+    width: 349px;
+    height: 580px;
+    
+}
+.banner-image-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    
+}
+.box-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    position: absolute;
+    top: 400px;
+    left: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-1 > .round {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.box-1 > .box-1-content{
+    width: 108px;
+    height: 56px;
+}
+.box-1-content > .tit{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    column-rule: rgb(250, 250, 249);
+    margin-bottom: 5px;
+}
+.box-1-content > .des{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.box-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 193px;
+    height: 96px;
+    border-radius: 12px;
+    position: absolute;
+    top: 130px;
+    left: 980px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.box-2 .tit{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    column-rule: rgb(250, 250, 249);
+    margin-bottom: 5px;
+}
+.box-2 .des{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
