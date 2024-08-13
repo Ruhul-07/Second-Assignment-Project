@@ -91,4 +91,51 @@
         flex-direction: column;
         justify-content: flex-start;
         height: auto;
+    }
+    .run-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .run-text-area{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .area-title{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .area-description{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        color:  rgba(255, 255, 255, 0.5);
+    }
+    .area-description br{
+        display: none;
+    }
+    .join-now{
+        width: 100%;
+    }
+    .run-img-area img{
+       padding: 10px;
+    }
+    }
+    .bmi-title{
+        padding: 20px;
+    }
+    .bmi-main{
+        width: 100%;
+    }
+    .our-team-area{
+        width: 100%;
+    }
+    .our-team-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-team-content .member-1, .member-4{
+        display: none;
+    }
 }
