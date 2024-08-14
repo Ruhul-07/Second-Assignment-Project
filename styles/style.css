@@ -251,11 +251,13 @@ body{
     font-size: 48px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 .habit-description{
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .content-area{
     margin-top: 40px;
@@ -323,11 +325,13 @@ body{
     width: 100%;
     margin-top: 30px;
     background-color: rgb(34, 34, 34);
+    margin-top: 30px;
 }
 .chart-title{
     font-weight: 900;
     font-size: 28px;
     margin-bottom: 20px;
+    color: rgb(255, 255, 255);
 }
 table{
     border-collapse: collapse;
@@ -347,11 +351,15 @@ table td{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .calculator-title{
     font-weight: 900;
     font-size: 28px;
     line-height: 120%;
+    text-align: left;
+    color: rgb(255, 255, 255);
 }
 .calculator-description{
     font-weight: 600;
@@ -360,46 +368,61 @@ table td{
     color: rgba(255, 255, 255, 0.5);
 }
 .input-area{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 15px;
 }
-.input-area input, select{
-    background: none;
+.input input{
     width: 100%;
+    background-color: #393939;
+    border-radius: 8px;
     padding: 12px 20px;
+    border: none;
+}
+.input select{
+    width: 100%;
+    background-color: #393939;
     border-radius: 8px;
+    padding: 12px 20px;
     border: none;
 }
-.input-area select{
-    width: 20px;
-    border: none;
-    color: white;
-}
-.input-area input{
-    border-radius: 8px;
-    border: none;
-    background-color: rgb(57, 57, 57);
-    color: rgba(255, 255, 255, 0.5);
-    
-}
-.input-area .input4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-}
-.input-area .input5{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#special-2{
     grid-column: span 2;
-    padding-left: 20px;
 }
+select{
+    color: rgba(255, 255, 255, 0.6);
+    Font: Inter;
+    Font-weight: 400;
+    Font-size: 16px;
+    background-color: #393939;
+}
+.input-area ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    Font: Inter;
+    Font-weight: 400;
+    Font-size: 16px;
+    background-color: #393939;
+}
+.calculate{
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-top: 30px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    width: 224px;
+}
+
+/* Our Team area start */
 
 .our-team-area{
     text-align: center;
 }
+
 .our-team-content img{
     width: 100%;
     height: 100%;
@@ -418,4 +441,74 @@ table td{
     width: 80%;
     margin: 0 auto;
     
+}
+/* Footer area start */
+
+footer{
+    background-color: #1a1a1a;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-content{
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.first-col{
+    
+}
+.first-col h1{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.first-col p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3px;
+}
+.col-menu h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+}
+.col-menu ul{
+    list-style-type: none;
+}
+.col-menu li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.second-col{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+}
+h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px; 
+    text-align: center;
 }

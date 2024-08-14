@@ -121,12 +121,23 @@
     .run-img-area img{
        padding: 10px;
     }
-    }
     .bmi-title{
         padding: 20px;
     }
+    .bmi-title .area-title{
+        text-align: left;
+    }
     .bmi-main{
         width: 100%;
+    }
+    .bmi-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .bmi-content br{
+        display: none;
     }
     .our-team-area{
         width: 100%;
@@ -138,4 +149,21 @@
     .our-team-content .member-1, .member-4{
         display: none;
     }
+     .footer-content{
+        display: flex;
+        flex-direction: column;
+     }
+     .second-col{
+        display: flex;
+        flex-direction: column;
+     }
+     .first-col{
+        margin-bottom: 30px;
+     }
+     .first-col br{
+        display: none;
+     }
+     .col-menu{
+        margin-bottom: 30px;
+     }
 }
