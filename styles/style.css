@@ -313,6 +313,22 @@ body{
     object-position: 66% 20%;
     border-radius: 18px;
 }
+/* excercise area */
+.excercise-area{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.excercise-area-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.excercise-area-content h3{
+    text-align: left;
+}
+.box-1{
+    background-color: rgba(6, 255, 210, 0.5);
+    border: 2px solid red;
+}
 /* BMI Calculator Area */
 .bmi-calculator{
     display: flex;
@@ -442,6 +458,47 @@ select{
     margin: 0 auto;
     
 }
+.contact-form{
+    margin-bottom: 40px;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 50px;
+    border-radius: 20px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+button{
+    grid-column: span 2;
+    background-color: #393939;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: none;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+}
+.box input{
+    width: 100%;
+    background-color: #393939;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: none;
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 40px;
+}
+
 /* Footer area start */
 
 footer{
