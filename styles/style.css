@@ -325,9 +325,14 @@ body{
 .excercise-area-content h3{
     text-align: left;
 }
-.box-1{
-    background-color: rgba(6, 255, 210, 0.5);
-    border: 2px solid red;
+.excercise-img-area img{
+    width: 100%;
+    height: 100%;
+}
+.excercise-img-area{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 /* BMI Calculator Area */
 .bmi-calculator{
@@ -455,8 +460,22 @@ select{
     background-color: #1a1a1a;
     padding: 20px;
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+.member-1, .member-2, .member-3, .member-4, .member-5, .member-6 {
+    position: relative
+}
+.designation{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: left;
+}
+.designation p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
 }
 .contact-form{
     margin-bottom: 40px;
@@ -473,7 +492,7 @@ form{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-button{
+form button{
     grid-column: span 2;
     background-color: #393939;
     border-radius: 8px;
