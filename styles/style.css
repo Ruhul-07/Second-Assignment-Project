@@ -207,6 +207,13 @@ body{
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
 }
+.fa-solid {
+    display: none;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: 20px;
+    
+}
 .box-2{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -290,8 +297,9 @@ body{
     width: 50%;
     margin-left: 20px;
 }
-.area-title{
+.run-text-area .area-title{
     margin-bottom: 10px;
+    text-align: left;
 }
 .join-now{
     width: 224px;
